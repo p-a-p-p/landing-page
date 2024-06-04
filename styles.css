@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+/* header and footer */
+.header {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 200px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li a {
+  color: white;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 25px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* first section */
+.link-1 {
+  padding: 25px 200px 100px 200px;
+  background-color: #1f2937;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-1 img {
+  height: 200px;
+  width: 600px;
+}
+
+.link-1 .title {
+  font-size: 48px;
+  font-weight: bolder;
+  width: 300px;
+  color: white;
+}
+
+.link-1 p {
+  width: 500px;
+  color: white;
+}
+
+.link-1 button {
+  background-color: #3882f6;
+  width: 100px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.link-1-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Section 2 - bad approach i think */
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.link-2 img {
+  height: 150px;
+  width: 150px;
+  border: solid blue;
+  border-radius: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.link-2 {
+  padding: 25px 300px 100px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Quote Section */
+.link-3 {
+  background-color: #e5e7eb;
+  padding: 25px 300px 100px 300px;
+  height: 342px;
+}
+
+.quote {
+  margin-top: 50px;
+  display: flex;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+.quote-author {
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+}
+
+/* Call to Action Section */
+
+.float {
+  margin-top: 50px;
+  background-color: white;
+  padding: 25px 300px 100px 300px;
+}
+.sign-up-box {
+  color: white;
+  background-color: #3772f6;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up p {
+  font-weight: lighter;
+}
+
+.sign-up-box button {
+  background-color: #3772f6;
+  border: solid white;
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 20px;
+}
